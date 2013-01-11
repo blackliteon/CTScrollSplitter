@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		328A633616A039630077977E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328A633516A039630077977E /* Cocoa.framework */; };
+		328A634016A039630077977E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 328A633E16A039630077977E /* InfoPlist.strings */; };
+		328A634216A039630077977E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A634116A039630077977E /* main.m */; };
+		328A634616A039630077977E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 328A634416A039630077977E /* Credits.rtf */; };
+		328A634916A039630077977E /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A634816A039630077977E /* CTAppDelegate.m */; };
+		328A634C16A039630077977E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328A634A16A039630077977E /* MainMenu.xib */; };
+		328A635416A039B60077977E /* CTScrollSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A635316A039B60077977E /* CTScrollSplitter.m */; };
+		328A635716A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.m in Sources */ = {isa = PBXBuildFile; fileRef = 328A635616A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.m */; };
+		328A635916A03CC00077977E /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 328A635816A03CC00077977E /* text.txt */; };
+		328A635B16A03E0B0077977E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 328A635A16A03E0B0077977E /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		328A633116A039630077977E /* CTScrollSplitterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTScrollSplitterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A633516A039630077977E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		328A633816A039630077977E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		328A633916A039630077977E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		328A633A16A039630077977E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		328A633D16A039630077977E /* CTScrollSplitterDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTScrollSplitterDemo-Info.plist"; sourceTree = "<group>"; };
+		328A633F16A039630077977E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		328A634116A039630077977E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		328A634316A039630077977E /* CTScrollSplitterDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTScrollSplitterDemo-Prefix.pch"; sourceTree = "<group>"; };
+		328A634516A039630077977E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		328A634716A039630077977E /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		328A634816A039630077977E /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		328A634B16A039630077977E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		328A635216A039B60077977E /* CTScrollSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTScrollSplitter.h; path = ../../CTScrollSplitter.h; sourceTree = "<group>"; };
+		328A635316A039B60077977E /* CTScrollSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTScrollSplitter.m; path = ../../CTScrollSplitter.m; sourceTree = "<group>"; };
+		328A635516A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTScrollViewWithScrollWheelDisabled.h; path = ../../CTScrollViewWithScrollWheelDisabled.h; sourceTree = "<group>"; };
+		328A635616A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTScrollViewWithScrollWheelDisabled.m; path = ../../CTScrollViewWithScrollWheelDisabled.m; sourceTree = "<group>"; };
+		328A635816A03CC00077977E /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
+		328A635A16A03E0B0077977E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328A632E16A039630077977E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A633616A039630077977E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328A632616A039630077977E = {
+			isa = PBXGroup;
+			children = (
+				328A635A16A03E0B0077977E /* README.md */,
+				328A635216A039B60077977E /* CTScrollSplitter.h */,
+				328A635316A039B60077977E /* CTScrollSplitter.m */,
+				328A635516A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.h */,
+				328A635616A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.m */,
+				328A633B16A039630077977E /* CTScrollSplitterDemo */,
+				328A633416A039630077977E /* Frameworks */,
+				328A633216A039630077977E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		328A633216A039630077977E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				328A633116A039630077977E /* CTScrollSplitterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328A633416A039630077977E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328A633516A039630077977E /* Cocoa.framework */,
+				328A633716A039630077977E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		328A633716A039630077977E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328A633816A039630077977E /* AppKit.framework */,
+				328A633916A039630077977E /* CoreData.framework */,
+				328A633A16A039630077977E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		328A633B16A039630077977E /* CTScrollSplitterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				328A634716A039630077977E /* CTAppDelegate.h */,
+				328A634816A039630077977E /* CTAppDelegate.m */,
+				328A634A16A039630077977E /* MainMenu.xib */,
+				328A633C16A039630077977E /* Supporting Files */,
+				328A635816A03CC00077977E /* text.txt */,
+			);
+			path = CTScrollSplitterDemo;
+			sourceTree = "<group>";
+		};
+		328A633C16A039630077977E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				328A633D16A039630077977E /* CTScrollSplitterDemo-Info.plist */,
+				328A633E16A039630077977E /* InfoPlist.strings */,
+				328A634116A039630077977E /* main.m */,
+				328A634316A039630077977E /* CTScrollSplitterDemo-Prefix.pch */,
+				328A634416A039630077977E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328A633016A039630077977E /* CTScrollSplitterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328A634F16A039630077977E /* Build configuration list for PBXNativeTarget "CTScrollSplitterDemo" */;
+			buildPhases = (
+				328A632D16A039630077977E /* Sources */,
+				328A632E16A039630077977E /* Frameworks */,
+				328A632F16A039630077977E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTScrollSplitterDemo;
+			productName = CTScrollSplitterDemo;
+			productReference = 328A633116A039630077977E /* CTScrollSplitterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328A632816A039630077977E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Cocotype;
+			};
+			buildConfigurationList = 328A632B16A039630077977E /* Build configuration list for PBXProject "CTScrollSplitterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 328A632616A039630077977E;
+			productRefGroup = 328A633216A039630077977E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				328A633016A039630077977E /* CTScrollSplitterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		328A632F16A039630077977E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A634016A039630077977E /* InfoPlist.strings in Resources */,
+				328A634616A039630077977E /* Credits.rtf in Resources */,
+				328A634C16A039630077977E /* MainMenu.xib in Resources */,
+				328A635916A03CC00077977E /* text.txt in Resources */,
+				328A635B16A03E0B0077977E /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		328A632D16A039630077977E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328A634216A039630077977E /* main.m in Sources */,
+				328A634916A039630077977E /* CTAppDelegate.m in Sources */,
+				328A635416A039B60077977E /* CTScrollSplitter.m in Sources */,
+				328A635716A039FD0077977E /* CTScrollViewWithScrollWheelDisabled.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		328A633E16A039630077977E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328A633F16A039630077977E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		328A634416A039630077977E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328A634516A039630077977E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		328A634A16A039630077977E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				328A634B16A039630077977E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		328A634D16A039630077977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		328A634E16A039630077977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		328A635016A039630077977E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTScrollSplitterDemo/CTScrollSplitterDemo-Prefix.pch";
+				INFOPLIST_FILE = "CTScrollSplitterDemo/CTScrollSplitterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		328A635116A039630077977E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTScrollSplitterDemo/CTScrollSplitterDemo-Prefix.pch";
+				INFOPLIST_FILE = "CTScrollSplitterDemo/CTScrollSplitterDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		328A632B16A039630077977E /* Build configuration list for PBXProject "CTScrollSplitterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A634D16A039630077977E /* Debug */,
+				328A634E16A039630077977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328A634F16A039630077977E /* Build configuration list for PBXNativeTarget "CTScrollSplitterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328A635016A039630077977E /* Debug */,
+				328A635116A039630077977E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 328A632816A039630077977E /* Project object */;
+}
